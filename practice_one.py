@@ -17,5 +17,6 @@ try:
 except ValueError:
     print("You have entered a wrong value, using a default value: 1000")
     weekly_burget = 1000 # TODO: clear non-numeric values
+    
 print(weekly_burget / 10)
 
