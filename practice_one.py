@@ -10,13 +10,19 @@
 
 '''
 
+# t = (1, 2, 3)
+# print(t(0))
+# print(t)
+
+# my_set = (300, 200, 100)
+# print(my_set)
 
 # який спланований бюджет на тиждень
-try:
-    weeklt_budget = float(input("Please enter budget for a week!")) # 100.1 100
-except ValueError:
-    print("You have entered a wrong value, using a default value: 1000")
-    weekly_burget = 1000 # TODO: clear non-numeric values
-    
-print(weekly_burget / 10)
+# try:
+#     weeklt_budget = float(input("Please enter budget for a week!")) # 100.1 100
+# except ValueError:
+#     print("You have entered a wrong value, using a default value: 1000")
+#     weekly_burget = 1000 # TODO: clear non-numeric values
+
+# print(weekly_burget / 10)
 
